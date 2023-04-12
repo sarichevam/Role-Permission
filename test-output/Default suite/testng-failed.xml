@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcase.roleRfiProduction$PimsAdmin">
+        <methods>
+          <include name="rfiRead"/>
+          <include name="LoginTest"/>
+          <include name="rfiAdd"/>
+          <include name="setUp"/>
+          <include name="rfiDeny"/>
+          <include name="rfiFullControl"/>
+        </methods>
+      </class> <!-- testcase.roleRfiProduction$PimsAdmin -->
+      <class name="testcase.ProjectDashboard">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="systemActivityTracker"/>
+          <include name="continueTesting"/>
+          <include name="projectDashboard"/>
+        </methods>
+      </class> <!-- testcase.ProjectDashboard -->
+      <class name="testcase.roleRFI$PimsAdmin">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="rfiAdd"/>
+          <include name="rfiRead"/>
+          <include name="setUp"/>
+          <include name="rfiDeny"/>
+          <include name="rfiFullControl"/>
+        </methods>
+      </class> <!-- testcase.roleRFI$PimsAdmin -->
+      <class name="testcase.multiplePackageType">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="EfeExecution"/>
+          <include name="TopCategoryAdministration"/>
+        </methods>
+      </class> <!-- testcase.multiplePackageType -->
+      <class name="testcase.rolePunchlistProduction$PimsAdmin">
+        <methods>
+          <include name="rfiDeny"/>
+          <include name="rfiRead"/>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="rfiAdd"/>
+          <include name="rfiFullControl"/>
+        </methods>
+      </class> <!-- testcase.rolePunchlistProduction$PimsAdmin -->
+      <class name="testcase.stressTesting$PimsAdmin">
+        <methods>
+          <include name="setUp"/>
+          <include name="switchingPims"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- testcase.stressTesting$PimsAdmin -->
+      <class name="testcase.roleActionItemProduction$PimsAdmin">
+        <methods>
+          <include name="setUp"/>
+          <include name="rfiFullControl"/>
+          <include name="rfiRead"/>
+          <include name="rfiDeny"/>
+          <include name="LoginTest"/>
+          <include name="rfiAdd"/>
+        </methods>
+      </class> <!-- testcase.roleActionItemProduction$PimsAdmin -->
+      <class name="testcase.roleAccess$PimsAdmin">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="switchingPims"/>
+        </methods>
+      </class> <!-- testcase.roleAccess$PimsAdmin -->
+      <class name="testcase.roleFpidcnProduction$PimsAdmin">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="rfiAdd"/>
+          <include name="setUp"/>
+          <include name="rfiRead"/>
+          <include name="rfiDeny"/>
+          <include name="rfiFullControl"/>
+        </methods>
+      </class> <!-- testcase.roleFpidcnProduction$PimsAdmin -->
+      <class name="testcase.verifyingClass">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="setUp"/>
+          <include name="Testik"/>
+        </methods>
+      </class> <!-- testcase.verifyingClass -->
+      <class name="testcase.roleProjectDecisionsProduction$PimsAdmin">
+        <methods>
+          <include name="rfiFullControl"/>
+          <include name="setUp"/>
+          <include name="rfiDeny"/>
+          <include name="rfiAdd"/>
+          <include name="rfiRead"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- testcase.roleProjectDecisionsProduction$PimsAdmin -->
+      <class name="testcase.anotherWayToHandlePopUp">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- testcase.anotherWayToHandlePopUp -->
+      <class name="testcase.stressTest1$PimsAdmin">
+        <methods>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="switchingPims"/>
+        </methods>
+      </class> <!-- testcase.stressTest1$PimsAdmin -->
+      <class name="testcase.rolePcnProduction$PimsAdmin">
+        <methods>
+          <include name="rfiFullControl"/>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+          <include name="rfiDeny"/>
+          <include name="rfiAdd"/>
+          <include name="rfiRead"/>
+        </methods>
+      </class> <!-- testcase.rolePcnProduction$PimsAdmin -->
+      <class name="testcase.rolePhaProduction$PimsAdmin">
+        <methods>
+          <include name="LoginTest"/>
+          <include name="rfiDeny"/>
+          <include name="rfiRead"/>
+          <include name="setUp"/>
+          <include name="rfiAdd"/>
+          <include name="rfiFullControl"/>
+        </methods>
+      </class> <!-- testcase.rolePhaProduction$PimsAdmin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

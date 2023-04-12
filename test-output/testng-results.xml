@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-12T14:34:27 EDT" name="Default suite" finished-at="2023-04-12T14:35:59 EDT" duration-ms="92775">
+    <groups>
+    </groups>
+    <test started-at="2023-04-12T14:34:27 EDT" name="Default test" finished-at="2023-04-12T14:35:59 EDT" duration-ms="92775">
+      <class name="testcase.rolePunchlistProduction$PimsAdmin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.rolePunchlistProduction$PimsAdmin@6c64cb25]" started-at="2023-04-12T14:34:27 EDT" name="setUp" finished-at="2023-04-12T14:34:34 EDT" duration-ms="7505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginTest()[pri:1, instance:testcase.rolePunchlistProduction$PimsAdmin@6c64cb25]" started-at="2023-04-12T14:34:34 EDT" name="LoginTest" finished-at="2023-04-12T14:34:53 EDT" duration-ms="19076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="rfiFullControl()[pri:2, instance:testcase.rolePunchlistProduction$PimsAdmin@6c64cb25]" started-at="2023-04-12T14:34:53 EDT" name="rfiFullControl" finished-at="2023-04-12T14:35:07 EDT" duration-ms="14130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rfiFullControl -->
+        <test-method signature="rfiRead()[pri:3, instance:testcase.rolePunchlistProduction$PimsAdmin@6c64cb25]" started-at="2023-04-12T14:35:07 EDT" name="rfiRead" finished-at="2023-04-12T14:35:21 EDT" duration-ms="13255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rfiRead -->
+        <test-method signature="rfiAdd()[pri:4, instance:testcase.rolePunchlistProduction$PimsAdmin@6c64cb25]" started-at="2023-04-12T14:35:21 EDT" name="rfiAdd" finished-at="2023-04-12T14:35:33 EDT" duration-ms="12606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rfiAdd -->
+        <test-method signature="rfiDeny()[pri:5, instance:testcase.rolePunchlistProduction$PimsAdmin@6c64cb25]" started-at="2023-04-12T14:35:33 EDT" name="rfiDeny" finished-at="2023-04-12T14:35:59 EDT" duration-ms="26165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rfiDeny -->
+      </class> <!-- testcase.rolePunchlistProduction$PimsAdmin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
